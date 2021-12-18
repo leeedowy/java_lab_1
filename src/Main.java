@@ -4,11 +4,13 @@ public class Main {
 
     public static void main(String[] args) {
 
-        /* Tablice - cw_6 */
+        double[] tab = {5.23, 56.23, 123.1, 0.6344, 9983.5364};
+        for (int i = 0; i < tab.length; i++) {
+            System.out.println(tab[i]);
+        }
 
-        /* zad1. stworzyć tablicę typu double 5-cio elementową,
-        przypisać do niej wartości i wyświetlić */
-
-
+        for (double value : tab) {
+            System.out.println(value);
+        }
     }
 }
