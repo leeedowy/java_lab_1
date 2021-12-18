@@ -6,17 +6,35 @@ public class Main {
 
         int zmiennaInt = 7;
         System.out.println("zmienna int = " + zmiennaInt);
-        /* ćw.2 */
 
-        /*   zad.1 zadeklaruj i zainicjalizuj zmienne różnych typów i wyświetl w konsoli (im więcej tym lepiej ;) ) */
+        byte byteInteger = 5;
+        short shortInteger = 10;
+        int integer = 100000;
+        long longInteger = 10000000000000L;
 
-        /*
-        *    zad.2 Napisz kod który będzie wykonywał operacje: dodawania, odejmowania,
-        *    mnożenia, dziealenia i modulo na zmiennych:
-        *    a) liczbaA i liczbaB, dowolne liczby calkowite (int),
-        *    b) liczbaX i liczbaY, dowolne liczby zmiennoprzecinkowe (double)
-        *  */
+        float pojedynczaPrecyzja = 1.5453f;
+        double podwojnaPrecyzja = 1.636346343;
+
+        char character = 'j';
+        String napis = "hello world!";
+
+        boolean zmiennaLogiczna = true;
 
 
+        int first = 235;
+        int second = 14;
+
+        System.out.println(first + second);
+        System.out.println(first - second);
+        System.out.println(first * second);
+        System.out.println(first % second);
+
+        double firstD = 25.6;
+        double secondD = 6.8;
+
+        System.out.println(firstD + secondD);
+        System.out.println(firstD - secondD);
+        System.out.println(firstD * secondD);
+        System.out.println(firstD % secondD);
     }
 }
