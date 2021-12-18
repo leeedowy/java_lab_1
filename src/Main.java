@@ -27,6 +27,7 @@ public class Main {
         System.out.println(first + second);
         System.out.println(first - second);
         System.out.println(first * second);
+        System.out.println(first / second);
         System.out.println(first % second);
 
         double firstD = 25.6;
@@ -35,6 +36,7 @@ public class Main {
         System.out.println(firstD + secondD);
         System.out.println(firstD - secondD);
         System.out.println(firstD * secondD);
+        System.out.println(firstD / secondD);
         System.out.println(firstD % secondD);
     }
 }
