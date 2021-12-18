@@ -4,19 +4,28 @@ public class Main {
 
     public static void main(String[] args) {
 
-        /* ćw.3 */
+        Scanner scan = new Scanner(System.in);
 
-        /*  zad.1 napisać interfejs który bedzie słuzył do wpisania danych osobowych:
-        *   a) Imię, nazwisko, wiek, nr indeksu,
-        *   dane mają być wprowadzane z klawiatury w konsoli
-        *   b) wyświetlić dane za pomocą println i printf
-        */
+        System.out.print("Podaj imię: ");
+        String name = scan.next();
+        System.out.print("Podaj nazwisko: ");
+        String lastName = scan.next();
+        System.out.print("Podaj wiek: ");
+        int age = scan.nextInt();
+        System.out.print("Podaj nr indeksu: ");
+        int index = scan.nextInt();
 
+        System.out.printf("Imię i nazwisko: %s %s\n", name, lastName);
+        System.out.println("Wiek: " + age);
+        System.out.println("Nr indeksu: " + index);
 
-        /*  zad.2 zadeklarować 2 zmienne typu int i wykonać na nich obliczenia arytmetyczn (+, -, *, /, %)
-        *   wynik wyświetlić w konsoli programu
-        */
+        int first = scan.nextInt();
+        int second = scan.nextInt();
 
-
+        System.out.printf("%d + %d = %d\n", first, second, first + second);
+        System.out.printf("%d - %d = %d\n", first, second, first - second);
+        System.out.printf("%d * %d = %d\n", first, second, first * second);
+        System.out.printf("%d / %d = %d\n", first, second, first / second);
+        System.out.printf("%d mod %d = %d\n", first, second, first % second);
     }
 }
